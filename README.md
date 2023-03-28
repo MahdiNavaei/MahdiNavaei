@@ -57,4 +57,4 @@ This certification program from Coursera covers best practices for deploying mac
 
 
 # 📫 Let's connect
-I'm always looking to connect with other data scientists and professionals in the field. You can find me on [LinkedIn](https://www.linkedin.com/in/mahdinavaei/) or reach out to me via [email](https://www.m.navaei1367@gmail.com).
+I'm always looking to connect with other data scientists and professionals in the field. You can find me on [LinkedIn](https://www.linkedin.com/in/mahdinavaei/) or reach out to me via email.
