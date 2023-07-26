@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm a data scientist with over 5 years of experience in the field. My expertise lies in using statistical analysis and machine learning techniques to solve complex business problems and drive data-driven decision making.
+I'm a data scientist with over 2 years of experience in the field. My expertise lies in using statistical analysis and machine learning techniques to solve complex business problems and drive data-driven decision making.
 
 
 # 🔭 Expertise
