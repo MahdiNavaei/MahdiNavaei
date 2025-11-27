@@ -9,8 +9,11 @@
 *7+ years specializing in **Agentic AI**, **LLMs**, **RAG Systems**, and **Enterprise ML Pipelines***
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei)
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MahdiNavaei)
+
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/mahdinavaei)
+
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahdinavaei1367@gmail.com)
 
 </div>
@@ -24,24 +27,37 @@ I'm an **AI Engineer** and **Data Scientist** with **7+ years of experience** de
 ### 🎯 Core Specializations
 
 **🤖 Agentic AI & Autonomous Workflows**
+
 - Building autonomous AI agents capable of multi-step reasoning and complex task orchestration
+
 - Designing structured reasoning frameworks for root-cause analysis and problem-solving
+
 - Developing retrieval-augmented agentic workflows with external tool integration
 
 **💬 Large Language Models (LLMs) & NLP**
+
 - Fine-tuning GPT, LLaMA, and custom transformer models for domain-specific applications
+
 - Implementing RAG (Retrieval-Augmented Generation) architectures with hybrid retrieval strategies
+
 - Building Natural-Language-to-SQL agents and conversational AI systems
+
 - Advanced prompt engineering and model optimization techniques
 
 **🔍 Enterprise RAG & Knowledge Systems**
+
 - Creating enterprise-grade knowledge engines with hybrid retrieval (semantic + keyword)
+
 - Implementing re-ranking pipelines for improved relevance and accuracy
+
 - Building production RAG systems for organizational knowledge management
 
 **📊 Production ML & MLOps**
+
 - End-to-end ML pipeline development from data ingestion to model deployment
+
 - Scalable recommendation systems for large-scale e-commerce platforms
+
 - Real-time inference systems with optimized performance and latency
 
 ---
@@ -55,23 +71,33 @@ Leading AI initiatives and building production systems that serve enterprise cus
 ### 🔥 Key Projects & Achievements
 
 **🧠 Agentic AI Workflows**
+
 - Developed autonomous AI agents capable of performing multi-step root-cause analysis on customer complaints through structured reasoning and retrieval orchestration
+
 - Built agents that autonomously navigate complex decision trees and generate actionable insights
 
 **💬 LLM-Powered Intelligence Systems**
+
 - Built autonomous **Natural-Language-to-SQL agent** capable of understanding Persian queries, generating validated SQL commands, executing on Postgres, and producing automated analysis with visualizations through an end-to-end LLM-driven workflow
+
 - Developed **LLM-powered call-center intelligence pipeline** integrating speech-to-text transcription, entity extraction, and automated agent-performance scoring—substantially improving insight coverage and quality-control effectiveness
+
 - Integrated **LLM agents into analytics dashboards**, enabling conversational insights, automated reporting, and interactive data exploration
 
 **🔍 Enterprise RAG Knowledge Engine**
+
 - Created **enterprise RAG knowledge engine** using hybrid retrieval (semantic + keyword) and advanced re-ranking to enable accurate, context-grounded responses and improved access to organizational knowledge
+
 - Implemented retrieval pipelines optimized for accuracy and relevance in production environments
 
 **📈 Production ML Systems**
+
 - Built **large-scale hybrid recommender system** (content-based + collaborative) enhanced with RFM-based personalization to deliver precise and real-time user targeting
+
 - Designed **aspect-based sentiment analysis framework** to surface issue-level signals across device models, directly supporting after-sales strategy and product optimization
 
 **🎤 Multimodal AI Capabilities**
+
 - Added **production-grade STT and TTS capabilities** for automated report narration, customer-support voice responses, and enhanced call-center automation pipelines
 
 ---
@@ -79,8 +105,11 @@ Leading AI initiatives and building production systems that serve enterprise cus
 ## 🏆 Key Achievements
 
 - 🥈 **2nd Place** in Tehran Provincial AI Competition (2022)
+
 - 🎓 **Member** of Iran's National Elites Foundation
+
 - 📜 **Kaggle Notebooks Master**
+
 - 📄 **Published Research** in Health Science Reports (Wiley), ICVPR, AMLAI
 
 ---
@@ -88,56 +117,98 @@ Leading AI initiatives and building production systems that serve enterprise cus
 ## 🛠️ Tech Stack
 
 ### 🤖 AI & LLM Technologies
+
 `OpenAI GPT` `LLaMA` `Transformers` `LangChain` `LlamaIndex` `RAG` `Fine-tuning` `Prompt Engineering` `Semantic Search` `Vector Databases`
 
 ### 🧠 Agentic AI & Workflows
+
 `Agentic AI` `Multi-step Reasoning` `Retrieval Orchestration` `Structured Reasoning` `Task Orchestration` `Tool Integration`
 
 ### 💬 NLP & Language Technologies
+
 `Transformers` `BERT` `GPT` `LLaMA` `Natural Language Processing` `Semantic Search` `Entity Extraction` `Sentiment Analysis` `Aspect-based Analysis` `STT/TTS`
 
 ### 🔍 RAG & Knowledge Systems
+
 `Retrieval-Augmented Generation` `Hybrid Retrieval` `Re-ranking` `Vector Embeddings` `Knowledge Graphs` `Document Processing`
 
 ### 🚀 Production ML & Engineering
+
 `FastAPI` `Docker` `Kubernetes` `MLOps` `Model Deployment` `Real-time Inference` `A/B Testing` `Monitoring & Logging`
 
 ### 📊 ML & Data Science
+
 `Python` `TensorFlow` `Keras` `PyTorch` `scikit-learn` `Pandas` `NumPy` `SciPy` `Collaborative Filtering` `Deep Learning` `Time-Series Forecasting` `Causal Inference`
 
 ### 🗄️ Data & Infrastructure
+
 `SQL` `PostgreSQL` `NoSQL` `MongoDB` `Parquet` `Apache Spark` `Distributed Computing`
 
 ### 🌐 Full-Stack Development
+
 `React` `TypeScript` `JavaScript` `REST APIs` `GraphQL` `Microservices`
 
 ### 📈 Analytics & BI
+
 `Power BI` `Tableau` `Data Visualization` `Business Intelligence`
 
 ---
 
 ## 🌟 Featured Projects
 
+### 🛡️ [DriveShield – Real-Time Collision Risk Intelligence](https://github.com/MahdiNavaei/DriveShield) ⭐
+
+**End-to-end collision prediction platform** using Nexar's state-of-the-art BADAS-Open model, a FastAPI backend, and a fully bilingual React dashboard.
+
+**Key Features:**
+- 🎯 **State-of-the-Art Collision Prediction:** Integrates Nexar's BADAS-Open vision model for real-time risk analysis.
+- 🚀 **Production-Ready Architecture:** Scalable FastAPI backend and a modern, responsive React + TypeScript frontend.
+- 🌐 **Bilingual UI (English/Persian):** Features real-time language switching and a dark, modern theme.
+- 🔒 **100% Offline Inference:** Runs entirely locally without external API calls, ideal for production and edge deployments.
+- 📊 **Comprehensive Evaluation Pipeline:** Includes industry-standard metrics like AUC-ROC and Average Precision.
+- 🎬 **Live Demo GIF:** Showcases the full user workflow from video upload to risk visualization.
+
+**Tech Stack:** Python | FastAPI | React | TypeScript | PyTorch | Computer Vision | MLOps
+
+**Production-Ready Features:**
+- Complete MLOps workflow from SOTA model integration to interactive UI.
+- Designed for scalability, clean code practices, and type safety.
+- Fully reproducible setup and evaluation instructions.
+
+🔗 **[View Repository →](https://github.com/MahdiNavaei/DriveShield)**
+
+---
+
 ### 🔄 [Hybrid Retail Recommender System](https://github.com/MahdiNavaei/hybrid-retail-recommender) ⭐
 
 **Production-ready hybrid recommender system** combining collaborative filtering & content-based ML for large-scale e-commerce applications.
 
 **Key Features:**
+
 - 🔀 Hybrid recommendation engine (Collaborative Filtering + Content-Based)
+
 - 🚀 FastAPI backend with async support and structured logging
+
 - 🌐 Bilingual React UI (English/Persian) with RTL/LTR support
+
 - 📊 Comprehensive offline evaluation metrics (Precision@K, Recall@K, NDCG@K, MAP@K)
+
 - 🐳 Docker containerization for easy deployment
+
 - 📈 Real-time recommendations with optimized sparse matrix operations
+
 - 🔧 Modular architecture following production best practices
 
 **Tech Stack:** Python | FastAPI | React | TypeScript | NumPy | SciPy | scikit-learn | Docker
 
-**Results:** Achieved **140% improvement in precision** and **175% improvement in recall** compared to baseline on 38K+ users and 23K+ items with 99.96% sparsity—demonstrating effectiveness on challenging real-world datasets.
+**Results:** Achieved **140% improvement in precision** and **175% improvement in recall** compared to a baseline on a 38K+ user dataset—demonstrating effectiveness on challenging real-world data.
 
 **Production-Ready Features:**
+
 - Complete end-to-end pipeline from raw data to web interface
+
 - Scalable architecture designed for enterprise deployment
+
 - Comprehensive evaluation framework for model comparison
 
 🔗 **[View Repository →](https://github.com/MahdiNavaei/hybrid-retail-recommender)**
@@ -199,6 +270,7 @@ Comprehensive customer segmentation and personality analysis for targeted market
 <div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MahdiNavaei&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MahdiNavaei&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=MahdiNavaei&theme=tokyonight&hide_border=true)
@@ -238,6 +310,7 @@ Developed ML models for book sales prediction across Iran's bookstores, enabling
 ## 🎓 Education
 
 - **Master's Degree in Artificial Intelligence** | Islamic Azad University *(Jun 2024 – Present)*
+
 - **Bachelor's Degree in Information Technology** | University of Applied Science and Technology *(Feb 2024)*
 
 ---
@@ -245,7 +318,9 @@ Developed ML models for book sales prediction across Iran's bookstores, enabling
 ## 💬 Languages
 
 - 🇬🇧 **English** – Duolingo English Test: 120 (Proficient)
+
 - 🇩🇪 **German** – A2 (Basic)
+
 - 🇮🇷 **Persian** – Native
 
 ---
@@ -255,9 +330,13 @@ Developed ML models for book sales prediction across Iran's bookstores, enabling
 I'm actively seeking opportunities to:
 
 - 🚀 Build and scale **Agentic AI systems** and **LLM applications** at innovative companies
+
 - 💼 Work on **production-grade AI systems** that solve real business problems
+
 - 🌍 Collaborate with international teams on cutting-edge AI/ML projects
+
 - 📈 Contribute to **enterprise RAG systems** and **knowledge management** platforms
+
 - 🤝 Join forward-thinking organizations that value innovation and technical excellence
 
 **Open to:** Remote positions, Contract work, Full-time opportunities worldwide
@@ -271,8 +350,11 @@ I'm always open to discussing AI/ML projects, collaborating on interesting initi
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei)
+
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MahdiNavaei)
+
 [![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/mahdinavaei)
+
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mahdinavaei1367@gmail.com)
 
 </div>
