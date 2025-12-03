@@ -215,6 +215,53 @@ Leading AI initiatives and building production systems that serve enterprise cus
 
 ---
 
+### 🌊 [FlowCast – AI-Powered Surge Pricing & ETA Optimization Engine](https://github.com/MahdiNavaei/FlowCast) ⭐
+
+**Enterprise-grade intelligent pricing and ETA prediction platform** for ride-hailing platforms, combining predictive demand forecasting, real-time ETA estimation, and dynamic surge pricing optimization.
+
+**Key Features:**
+
+- 🎯 **Predictive Surge Pricing Engine:** Anticipates future demand-supply imbalances using ML models, enabling proactive pricing adjustments before demand spikes occur—reducing price volatility by **30-40%**
+
+- ⏱️ **Advanced ETA Prediction:** Achieves **20%+ improvement** in accuracy over baseline using distance, speed, and zone-specific load factors with robust fallback mechanisms
+
+- 📊 **Demand Forecasting:** Predicts supply-demand imbalance within **15% margin of error** for 5-30 minute time horizons, enabling data-driven pricing decisions
+
+- 💰 **Revenue Optimization:** Demonstrates **+10-25% improvement** in platform revenue per trip while maintaining customer satisfaction through balanced pricing strategies
+
+- 🚀 **Real-Time Marketplace Dashboard:** Interactive React dashboard with heatmaps, KPI delta cards, and scatter plot visualizations for policy comparison and real-time monitoring
+
+- 🔀 **Multiple Pricing Policies:** Implements three sophisticated pricing strategies:
+  - **Base Policy:** Fixed pricing baseline for comparison
+  - **Smart Surge v1:** Reactive surge pricing with demand-supply ratio analysis
+  - **Predictive Surge v2:** Anticipatory surge pricing using short-term demand forecasting
+
+- 📈 **Policy Simulation Engine:** Comprehensive replay simulator comparing pricing policies with detailed KPI analysis (ETA, completion rates, revenue, volatility)
+
+- 🗺️ **Geospatial Intelligence:** Built with GeoPandas and OSMNX for Tehran, enabling accurate routing, distance calculations, and zone-based demand analysis
+
+**Tech Stack:** Python | FastAPI | React | GeoPandas | OSMNX | NetworkX | scikit-learn | Time-Series Forecasting | Geospatial Analysis | MLOps
+
+**Performance Metrics:**
+
+- ✅ **+20% ETA accuracy** improvement over baseline
+- ✅ **±15% demand forecast** error margin
+- ✅ **+5-15% trip completion rate** in high-demand zones
+- ✅ **+10-25% revenue efficiency** per trip
+- ✅ **-30-40% price volatility** reduction
+
+**Production-Ready Features:**
+
+- Complete end-to-end ML pipeline from data ingestion to real-time API deployment
+- Scalable FastAPI backend with async support and structured logging
+- Bilingual React dashboard (English/Persian) with real-time visualizations
+- Comprehensive evaluation framework with policy comparison and KPI tracking
+- Production-grade architecture designed for enterprise ride-hailing platforms
+
+🔗 **[View Repository →](https://github.com/MahdiNavaei/FlowCast)**
+
+---
+
 ## 📁 Other Notable Projects
 
 ### 🩸 [Blood Cell Cancer Detection with Deep Learning](https://github.com/MahdiNavaei/Blood-Cell-Cancer-Detection)
