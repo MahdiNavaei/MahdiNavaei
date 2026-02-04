@@ -1,353 +1,209 @@
-# 👋 Hi, I'm Mahdi Navaei
-
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=MahdiNavaei&color=blueviolet)
+# Mahdi Navaei
 
-**AI Engineer / Data Scientist** | Building Production-Grade AI Systems | Tehran, Iran 🇮🇷
+### AI Engineer • Agentic AI Architect • Data Scientist
 
-*7+ years specializing in **Agentic AI**, **LLMs**, **RAG Systems**, and **Enterprise ML Pipelines***
+[![Profile Views](https://komarev.com/ghpvc/?username=MahdiNavaei&color=blueviolet&style=flat-square)](https://github.com/MahdiNavaei)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/mahdinavaei)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:mahdinavaei1367@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Master-20BEFF?style=flat-square&logo=kaggle)](https://kaggle.com/mahdinavaei)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei)
+**7+ years building production-grade AI systems** | Tehran, Iran
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MahdiNavaei)
-
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/mahdinavaei)
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahdinavaei1367@gmail.com)
+*Specializing in Agentic AI, LLMs, RAG Systems, and Enterprise ML Pipelines*
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🎯 What I Do
 
-I'm an **AI Engineer** and **Data Scientist** with **7+ years of experience** designing and deploying **production-grade intelligent systems** at scale. I specialize in cutting-edge AI technologies that drive real business impact:
+I architect and deploy **production-grade intelligent systems** that drive real business impact. My focus areas:
 
-### 🎯 Core Specializations
-
-**🤖 Agentic AI & Autonomous Workflows**
-
-- Building autonomous AI agents capable of multi-step reasoning and complex task orchestration
-
-- Designing structured reasoning frameworks for root-cause analysis and problem-solving
-
-- Developing retrieval-augmented agentic workflows with external tool integration
-
-**💬 Large Language Models (LLMs) & NLP**
-
-- Fine-tuning GPT, LLaMA, and custom transformer models for domain-specific applications
-
-- Implementing RAG (Retrieval-Augmented Generation) architectures with hybrid retrieval strategies
-
-- Building Natural-Language-to-SQL agents and conversational AI systems
-
-- Advanced prompt engineering and model optimization techniques
-
-**🔍 Enterprise RAG & Knowledge Systems**
-
-- Creating enterprise-grade knowledge engines with hybrid retrieval (semantic + keyword)
-
-- Implementing re-ranking pipelines for improved relevance and accuracy
-
-- Building production RAG systems for organizational knowledge management
-
-**📊 Production ML & MLOps**
-
-- End-to-end ML pipeline development from data ingestion to model deployment
-
-- Scalable recommendation systems for large-scale e-commerce platforms
-
-- Real-time inference systems with optimized performance and latency
+| Domain | Expertise |
+|--------|-----------|
+| **Agentic AI** | Autonomous agents, multi-step reasoning, task orchestration, tool integration |
+| **LLMs & NLP** | Fine-tuning, RAG architectures, NL2SQL, conversational AI, prompt engineering |
+| **Enterprise RAG** | Hybrid retrieval, re-ranking pipelines, knowledge management systems |
+| **Production ML** | End-to-end pipelines, real-time inference, MLOps, scalable deployments |
 
 ---
 
-## 💼 Current Role & Impact
+## 🚀 Flagship Project
 
-**Data Scientist** at **Daria Hamrah Paytakht** *(Jul 2024 – Present)*
+<div align="center">
 
-Leading AI initiatives and building production systems that serve enterprise customers:
+### [ARIA — Adaptive Reasoning & Intelligent Automation](https://github.com/MahdiNavaei/aria)
 
-### 🔥 Key Projects & Achievements
+**Production-Grade Agentic AI System**
 
-**🧠 Agentic AI Workflows**
+[![Tests](https://img.shields.io/badge/tests-81%20passed-brightgreen?style=flat-square)](https://github.com/MahdiNavaei/aria)
+[![Python](https://img.shields.io/badge/python-3.11+-blue?style=flat-square&logo=python)](https://github.com/MahdiNavaei/aria)
+[![LangGraph](https://img.shields.io/badge/LangGraph-powered-orange?style=flat-square)](https://github.com/MahdiNavaei/aria)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/MahdiNavaei/aria/blob/main/LICENSE)
 
-- Developed autonomous AI agents capable of performing multi-step root-cause analysis on customer complaints through structured reasoning and retrieval orchestration
+</div>
 
-- Built agents that autonomously navigate complex decision trees and generate actionable insights
+ARIA is not a prompt-chain demo or a single-purpose script — it's a **complete agentic AI platform** designed for real-world automation:
 
-**💬 LLM-Powered Intelligence Systems**
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                              ARIA                                        │
+│  Adaptive Reasoning & Intelligent Automation                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│  👁️ Eye (Vision)    →  Observe real interfaces using VLM               │
+│  🧠 Brain (LLM)     →  Plan and execute actions with reasoning          │
+│  ✋ Hand (Executor) →  Safe execution with capability contracts          │
+│  💾 Memory          →  Episodic, semantic, and working memory           │
+│  📚 Learning        →  Continuous improvement from outcomes             │
+│  🛡️ Safety          →  HITL gates, risk detection, domain policies      │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
-- Built autonomous **Natural-Language-to-SQL agent** capable of understanding Persian queries, generating validated SQL commands, executing on Postgres, and producing automated analysis with visualizations through an end-to-end LLM-driven workflow
+**Key Differentiators:**
 
-- Developed **LLM-powered call-center intelligence pipeline** integrating speech-to-text transcription, entity extraction, and automated agent-performance scoring—substantially improving insight coverage and quality-control effectiveness
+| Feature | Description |
+|---------|-------------|
+| **Vision-First** | UI understanding via VLM with multi-locator fallback |
+| **Event-Sourced** | Complete audit trail with full execution replay |
+| **Human-in-the-Loop** | First-class HITL for sensitive actions |
+| **Local LLMs** | Runs on consumer-grade GPUs (8GB VRAM) |
+| **Bilingual** | Full English and Persian support |
 
-- Integrated **LLM agents into analytics dashboards**, enabling conversational insights, automated reporting, and interactive data exploration
+**Architecture:**
+- **LangGraph** for stateful orchestration
+- **Event Sourcing** for auditability and replay
+- **Plugin System** with Job Apply as first production plugin
+- **10 ADRs** documenting architectural decisions
 
-**🔍 Enterprise RAG Knowledge Engine**
-
-- Created **enterprise RAG knowledge engine** using hybrid retrieval (semantic + keyword) and advanced re-ranking to enable accurate, context-grounded responses and improved access to organizational knowledge
-
-- Implemented retrieval pipelines optimized for accuracy and relevance in production environments
-
-**📈 Production ML Systems**
-
-- Built **large-scale hybrid recommender system** (content-based + collaborative) enhanced with RFM-based personalization to deliver precise and real-time user targeting
-
-- Designed **aspect-based sentiment analysis framework** to surface issue-level signals across device models, directly supporting after-sales strategy and product optimization
-
-**🎤 Multimodal AI Capabilities**
-
-- Added **production-grade STT and TTS capabilities** for automated report narration, customer-support voice responses, and enhanced call-center automation pipelines
+🔗 **[Explore ARIA →](https://github.com/MahdiNavaei/aria)**
 
 ---
 
-## 🏆 Key Achievements
+## 💼 Featured Projects
 
-- 🥈 **2nd Place** in Tehran Provincial AI Competition (2022)
+<details>
+<summary><b>🛡️ DriveShield — Real-Time Collision Risk Intelligence</b></summary>
 
-- 🎓 **Member** of Iran's National Elites Foundation
+End-to-end collision prediction platform using Nexar's BADAS-Open model.
 
-- 📜 **Kaggle Notebooks Master**
+- **State-of-the-Art Prediction:** Real-time risk analysis with vision models
+- **100% Offline:** Runs locally without external API calls
+- **Production-Ready:** FastAPI backend + React TypeScript frontend
 
-- 📄 **Published Research** in Health Science Reports (Wiley), ICVPR, AMLAI
+**Tech:** Python • FastAPI • React • TypeScript • PyTorch • Computer Vision
+
+🔗 [View Repository →](https://github.com/MahdiNavaei/DriveShield)
+</details>
+
+<details>
+<summary><b>🔄 Hybrid Retail Recommender System</b></summary>
+
+Production-ready hybrid recommender combining collaborative filtering & content-based ML.
+
+- **Results:** 140% precision improvement, 175% recall improvement
+- **Scale:** Tested on 38K+ user dataset
+- **Bilingual:** English/Persian UI with RTL support
+
+**Tech:** Python • FastAPI • React • TypeScript • scikit-learn • Docker
+
+🔗 [View Repository →](https://github.com/MahdiNavaei/hybrid-retail-recommender)
+</details>
+
+<details>
+<summary><b>🌊 FlowCast — Surge Pricing & ETA Optimization Engine</b></summary>
+
+Enterprise-grade intelligent pricing and ETA prediction for ride-hailing platforms.
+
+- **ETA Accuracy:** +20% improvement over baseline
+- **Revenue:** +10-25% efficiency per trip
+- **Price Stability:** 30-40% volatility reduction
+
+**Tech:** Python • FastAPI • React • GeoPandas • Time-Series Forecasting
+
+🔗 [View Repository →](https://github.com/MahdiNavaei/FlowCast)
+</details>
+
+<details>
+<summary><b>💊 Pharmaceutical Supply Chain Agentic AI</b></summary>
+
+Four-agent system for supply chain optimization using LangGraph orchestration.
+
+- **Logistics Costs:** 40% reduction
+- **Stockouts:** 67% reduction
+- **Forecast Accuracy:** 95%+ (MAPE < 5%)
+
+**Tech:** Python • FastAPI • LangGraph • Next.js • MongoDB • GPT-4o-mini
+
+🔗 [View Repository →](https://github.com/MahdiNavaei/pharmaceutical-supply-chain-agentic-ai)
+</details>
+
+<details>
+<summary><b>📚 More Projects</b></summary>
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Blood Cell Cancer Detection](https://github.com/MahdiNavaei/Blood-Cell-Cancer-Detection) | CNN-based classifier with 99%+ accuracy | TensorFlow • Keras • Medical Imaging |
+| [Books Recommendation System](https://github.com/MahdiNavaei/Books-Recommendation-System) | Production recommender, 8% sales increase | Collaborative Filtering • scikit-learn |
+| [Stock Price Collection](https://github.com/MahdiNavaei/Stock-price-collection) | Automated data pipeline for finance ML | Web Scraping • Database Design |
+| [CIFAR-10 Classification](https://github.com/MahdiNavaei/CIFAR-10-Image-Classification) | CNN image classifier, 90%+ accuracy | TensorFlow • Keras • CNN |
+
+</details>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🤖 AI & LLM Technologies
+<div align="center">
 
-`OpenAI GPT` `LLaMA` `Transformers` `LangChain` `LlamaIndex` `RAG` `Fine-tuning` `Prompt Engineering` `Semantic Search` `Vector Databases`
+**AI & LLM**
 
-### 🧠 Agentic AI & Workflows
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B6B?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-00D4AA?style=flat-square)
+![Transformers](https://img.shields.io/badge/Transformers-FFD43B?style=flat-square&logo=huggingface&logoColor=black)
 
-`Agentic AI` `Multi-step Reasoning` `Retrieval Orchestration` `Structured Reasoning` `Task Orchestration` `Tool Integration`
+**ML & Data Science**
 
-### 💬 NLP & Language Technologies
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-`Transformers` `BERT` `GPT` `LLaMA` `Natural Language Processing` `Semantic Search` `Entity Extraction` `Sentiment Analysis` `Aspect-based Analysis` `STT/TTS`
+**Production & DevOps**
 
-### 🔍 RAG & Knowledge Systems
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-`Retrieval-Augmented Generation` `Hybrid Retrieval` `Re-ranking` `Vector Embeddings` `Knowledge Graphs` `Document Processing`
+**Frontend**
 
-### 🚀 Production ML & Engineering
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 
-`FastAPI` `Docker` `Kubernetes` `MLOps` `Model Deployment` `Real-time Inference` `A/B Testing` `Monitoring & Logging`
-
-### 📊 ML & Data Science
-
-`Python` `TensorFlow` `Keras` `PyTorch` `scikit-learn` `Pandas` `NumPy` `SciPy` `Collaborative Filtering` `Deep Learning` `Time-Series Forecasting` `Causal Inference`
-
-### 🗄️ Data & Infrastructure
-
-`SQL` `PostgreSQL` `NoSQL` `MongoDB` `Parquet` `Apache Spark` `Distributed Computing`
-
-### 🌐 Full-Stack Development
-
-`React` `TypeScript` `JavaScript` `REST APIs` `GraphQL` `Microservices`
-
-### 📈 Analytics & BI
-
-`Power BI` `Tableau` `Data Visualization` `Business Intelligence`
-
----
-
-## 🌟 Featured Projects
-
-### 🛡️ [DriveShield – Real-Time Collision Risk Intelligence](https://github.com/MahdiNavaei/DriveShield) ⭐
-
-**End-to-end collision prediction platform** using Nexar's state-of-the-art BADAS-Open model, a FastAPI backend, and a fully bilingual React dashboard.
-
-**Key Features:**
-- 🎯 **State-of-the-Art Collision Prediction:** Integrates Nexar's BADAS-Open vision model for real-time risk analysis.
-- 🚀 **Production-Ready Architecture:** Scalable FastAPI backend and a modern, responsive React + TypeScript frontend.
-- 🌐 **Bilingual UI (English/Persian):** Features real-time language switching and a dark, modern theme.
-- 🔒 **100% Offline Inference:** Runs entirely locally without external API calls, ideal for production and edge deployments.
-- 📊 **Comprehensive Evaluation Pipeline:** Includes industry-standard metrics like AUC-ROC and Average Precision.
-- 🎬 **Live Demo GIF:** Showcases the full user workflow from video upload to risk visualization.
-
-**Tech Stack:** Python | FastAPI | React | TypeScript | PyTorch | Computer Vision | MLOps
-
-**Production-Ready Features:**
-- Complete MLOps workflow from SOTA model integration to interactive UI.
-- Designed for scalability, clean code practices, and type safety.
-- Fully reproducible setup and evaluation instructions.
-
-🔗 **[View Repository →](https://github.com/MahdiNavaei/DriveShield)**
+</div>
 
 ---
 
-### 🔄 [Hybrid Retail Recommender System](https://github.com/MahdiNavaei/hybrid-retail-recommender) ⭐
+## 🏆 Achievements
 
-**Production-ready hybrid recommender system** combining collaborative filtering & content-based ML for large-scale e-commerce applications.
+<div align="center">
 
-**Key Features:**
+| Achievement | Description |
+|:-----------:|-------------|
+| 🥈 | **2nd Place** — Tehran Provincial AI Competition (2022) |
+| 🎓 | **Member** — Iran's National Elites Foundation |
+| 📜 | **Kaggle Notebooks Master** |
+| 📄 | **Published Researcher** — Health Science Reports (Wiley), ICVPR, AMLAI |
 
-- 🔀 Hybrid recommendation engine (Collaborative Filtering + Content-Based)
-
-- 🚀 FastAPI backend with async support and structured logging
-
-- 🌐 Bilingual React UI (English/Persian) with RTL/LTR support
-
-- 📊 Comprehensive offline evaluation metrics (Precision@K, Recall@K, NDCG@K, MAP@K)
-
-- 🐳 Docker containerization for easy deployment
-
-- 📈 Real-time recommendations with optimized sparse matrix operations
-
-- 🔧 Modular architecture following production best practices
-
-**Tech Stack:** Python | FastAPI | React | TypeScript | NumPy | SciPy | scikit-learn | Docker
-
-**Results:** Achieved **140% improvement in precision** and **175% improvement in recall** compared to a baseline on a 38K+ user dataset—demonstrating effectiveness on challenging real-world data.
-
-**Production-Ready Features:**
-
-- Complete end-to-end pipeline from raw data to web interface
-
-- Scalable architecture designed for enterprise deployment
-
-- Comprehensive evaluation framework for model comparison
-
-🔗 **[View Repository →](https://github.com/MahdiNavaei/hybrid-retail-recommender)**
-
----
-
-### 🌊 [FlowCast – AI-Powered Surge Pricing & ETA Optimization Engine](https://github.com/MahdiNavaei/FlowCast) ⭐
-
-**Enterprise-grade intelligent pricing and ETA prediction platform** for ride-hailing platforms, combining predictive demand forecasting, real-time ETA estimation, and dynamic surge pricing optimization.
-
-**Key Features:**
-
-- 🎯 **Predictive Surge Pricing Engine:** Anticipates future demand-supply imbalances using ML models, enabling proactive pricing adjustments before demand spikes occur—reducing price volatility by **30-40%**
-
-- ⏱️ **Advanced ETA Prediction:** Achieves **20%+ improvement** in accuracy over baseline using distance, speed, and zone-specific load factors with robust fallback mechanisms
-
-- 📊 **Demand Forecasting:** Predicts supply-demand imbalance within **15% margin of error** for 5-30 minute time horizons, enabling data-driven pricing decisions
-
-- 💰 **Revenue Optimization:** Demonstrates **+10-25% improvement** in platform revenue per trip while maintaining customer satisfaction through balanced pricing strategies
-
-- 🚀 **Real-Time Marketplace Dashboard:** Interactive React dashboard with heatmaps, KPI delta cards, and scatter plot visualizations for policy comparison and real-time monitoring
-
-- 🔀 **Multiple Pricing Policies:** Implements three sophisticated pricing strategies:
-  - **Base Policy:** Fixed pricing baseline for comparison
-  - **Smart Surge v1:** Reactive surge pricing with demand-supply ratio analysis
-  - **Predictive Surge v2:** Anticipatory surge pricing using short-term demand forecasting
-
-- 📈 **Policy Simulation Engine:** Comprehensive replay simulator comparing pricing policies with detailed KPI analysis (ETA, completion rates, revenue, volatility)
-
-- 🗺️ **Geospatial Intelligence:** Built with GeoPandas and OSMNX for Tehran, enabling accurate routing, distance calculations, and zone-based demand analysis
-
-**Tech Stack:** Python | FastAPI | React | GeoPandas | OSMNX | NetworkX | scikit-learn | Time-Series Forecasting | Geospatial Analysis | MLOps
-
-**Performance Metrics:**
-
-- ✅ **+20% ETA accuracy** improvement over baseline
-- ✅ **±15% demand forecast** error margin
-- ✅ **+5-15% trip completion rate** in high-demand zones
-- ✅ **+10-25% revenue efficiency** per trip
-- ✅ **-30-40% price volatility** reduction
-
-**Production-Ready Features:**
-
-- Complete end-to-end ML pipeline from data ingestion to real-time API deployment
-- Scalable FastAPI backend with async support and structured logging
-- Bilingual React dashboard (English/Persian) with real-time visualizations
-- Comprehensive evaluation framework with policy comparison and KPI tracking
-- Production-grade architecture designed for enterprise ride-hailing platforms
-
-🔗 **[View Repository →](https://github.com/MahdiNavaei/FlowCast)**
-
----
-
-### 💊 [Pharmaceutical Supply Chain Agentic AI](https://github.com/MahdiNavaei/pharmaceutical-supply-chain-agentic-ai) ⭐
-
-**Advanced AI system for optimizing pharmaceutical supply chain** using Agentic AI architecture with four intelligent agents for demand forecasting, route optimization, inventory management, and real-time monitoring.
-
-**Key Features:**
-
-- 🤖 **Agentic AI Architecture:** Four specialized intelligent agents working collaboratively:
-  - **Forecasting Agent:** Demand prediction using Prophet, LSTM, and Moving Average models with <5% MAPE
-  - **Route Optimization Agent:** Google OR-Tools VRP/TSP implementation achieving 30-40% cost reduction
-  - **Inventory Matching Agent:** AI-powered inventory rebalancing with GPT-4o-mini analysis
-  - **Monitoring Agent:** Real-time alerting system with intelligent risk assessment
-
-- 🚀 **Production-Ready Stack:** FastAPI backend with LangGraph orchestration, Next.js frontend with TypeScript, and MongoDB database
-
-- 📊 **Advanced Analytics:** Interactive dashboards with real-time KPIs, forecasting charts, route visualization, and inventory optimization insights
-
-- 🔄 **End-to-End Workflow:** Complete LangGraph workflow enabling autonomous multi-step decision-making and agent orchestration
-
-- 💰 **Business Impact:** 
-  - **40% reduction** in logistics costs
-  - **67% reduction** in stockout incidents
-  - **38% reduction** in inventory holding costs
-  - **95%+ forecast accuracy** with MAPE < 5%
-
-- 🌐 **Modern UI/UX:** Bilingual React dashboard (English/Persian) with professional design, real-time updates, and comprehensive data visualization
-
-**Tech Stack:** Python | FastAPI | LangGraph | Next.js | TypeScript | MongoDB | OpenAI GPT-4o-mini | Prophet | TensorFlow | Google OR-Tools | Recharts | Tailwind CSS
-
-**Production-Ready Features:**
-- Complete Agentic AI system from data ingestion to intelligent decision-making
-- Scalable architecture designed for enterprise pharmaceutical supply chains
-- Comprehensive API documentation with Swagger/OpenAPI
-- Real-time monitoring and alerting capabilities
-- Full-stack application with modern UI/UX
-
-🔗 **[View Repository →](https://github.com/MahdiNavaei/pharmaceutical-supply-chain-agentic-ai)**
-
----
-
-## 📁 Other Notable Projects
-
-### 🩸 [Blood Cell Cancer Detection with Deep Learning](https://github.com/MahdiNavaei/Blood-Cell-Cancer-Detection)
-
-Advanced CNN-based model for highly accurate classification of blood cells. Achieved **over 99% accuracy**, ensuring precise identification across diverse cell types for streamlined medical diagnostics.
-
-**Tech Stack:** Python | TensorFlow | Keras | CNN | Medical Imaging | Computer Vision
-
----
-
-### 📚 [Books Recommendation System](https://github.com/MahdiNavaei/Books-Recommendation-System)
-
-Production recommendation system using collaborative filtering and content-based filtering techniques. Demonstrated **8% sales increase** after deployment, showcasing real business impact.
-
-**Tech Stack:** Python | Collaborative Filtering | Content-Based Filtering | scikit-learn | Production ML
-
----
-
-### 📈 [Stock Price Collection System](https://github.com/MahdiNavaei/Stock-price-collection)
-
-Automated data collection pipeline for historical stock price data from Yahoo Finance with database storage. Built for training ML models for stock price prediction and time-series analysis.
-
-**Tech Stack:** Python | Web Scraping | Database Design | Data Pipeline | Time-Series Data
-
----
-
-### 🖼️ [CIFAR-10 Image Classification](https://github.com/MahdiNavaei/CIFAR-10-Image-Classification)
-
-Deep learning model using Convolutional Neural Networks (CNNs) to classify images from the CIFAR-10 dataset. Achieved **over 90% accuracy** on the test set.
-
-**Tech Stack:** Python | TensorFlow | Keras | CNN | Computer Vision | Image Classification
-
----
-
-### 🐱🐶 [Cat vs Dog Classifier](https://github.com/MahdiNavaei/Cat_Dog_Classifier)
-
-Production-ready deep learning classifier for cats and dogs using Convolutional Neural Networks. Achieved **over 90% accuracy** on the test set.
-
-**Tech Stack:** Python | TensorFlow | Keras | CNN | Image Classification | Transfer Learning
-
----
-
-### 🎯 [Customer Personality Analysis for Marketing](https://github.com/MahdiNavaei/Customer-marketing)
-
-Comprehensive customer segmentation and personality analysis for targeted marketing campaigns. Demonstrates advanced analytics and data-driven decision making.
-
-**Tech Stack:** Python | Customer Analytics | Marketing Analytics | Clustering | Data Visualization | Business Intelligence
+</div>
 
 ---
 
@@ -355,104 +211,53 @@ Comprehensive customer segmentation and personality analysis for targeted market
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MahdiNavaei&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MahdiNavaei&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=MahdiNavaei&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=MahdiNavaei&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-streak-stats.demolab.com/?user=MahdiNavaei&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
 
 </div>
 
 ---
 
-## 📚 Publications & Research
+## 📚 Publications
 
-### Peer-Reviewed Publications
-
-- **M. Navaei**, Z. Doogchi, F. Gholami, M. Kermanizadeh Tavakoli. ["Leveraging Machine Learning for Pediatric Appendicitis Diagnosis: A Retrospective Study Integrating Clinical, Laboratory, and Imaging Data."](https://doi.org/10.1002/hsr2.70756) *Health Science Reports (Wiley)*
-
-- **M. Navaei**, Z. Doogchi. ["Machine Learning Models for Predicting Heart Failure: Unveiling Patterns and Enhancing Precision in Cardiac Risk Assessment."](https://doi.org/10.33140/ICVPR.04.01.02) *Insights of Cardiovascular Pharmacology Research (ICVPR)*
-
-- **M. Navaei**, M. Pahlevanzadeh. ["Forecasting Next-Time-Step Forex Market Stock Prices Using Neural Networks."](https://doi.org/10.33140/AMLAI.05.02.09) *Advances in Machine Learning & Artificial Intelligence (AMLAI)*
+- **M. Navaei** et al. ["Leveraging Machine Learning for Pediatric Appendicitis Diagnosis"](https://doi.org/10.1002/hsr2.70756) — *Health Science Reports (Wiley)*
+- **M. Navaei**, Z. Doogchi. ["Machine Learning Models for Predicting Heart Failure"](https://doi.org/10.33140/ICVPR.04.01.02) — *ICVPR*
+- **M. Navaei**, M. Pahlevanzadeh. ["Forecasting Forex Market Stock Prices Using Neural Networks"](https://doi.org/10.33140/AMLAI.05.02.09) — *AMLAI*
 
 ---
 
-## 💼 Professional Experience
+## 💼 Experience
 
-### Data Scientist | Daria Hamrah Paytakht *(Jul 2024 – Present)*
-
-Leading AI initiatives for enterprise customers, building production-grade systems serving thousands of users.
-
-### Data Science Team Lead | Diar-e Kohan CO. *(Sep 2020 – May 2022)*
-
-Led a team of 7 data scientists and analysts, overseeing end-to-end ML projects and ensuring timely delivery of scalable solutions. Implemented data-driven strategies that **increased bookstore sales by 5%**.
-
-### Data Scientist | Diar-e Kohan CO. *(Sep 2018 – Sep 2020)*
-
-Developed ML models for book sales prediction across Iran's bookstores, enabling targeted book distribution based on reading interests in different provinces.
+| Role | Company | Period |
+|------|---------|--------|
+| **Data Scientist** | Daria Hamrah Paytakht | Jul 2024 – Present |
+| **Data Science Team Lead** | Diar-e Kohan CO. | Sep 2020 – May 2022 |
+| **Data Scientist** | Diar-e Kohan CO. | Sep 2018 – Sep 2020 |
 
 ---
 
-## 🎓 Education
+## 🎯 Open To
 
-- **Master's Degree in Artificial Intelligence** | Islamic Azad University *(Jun 2024 – Present)*
-
-- **Bachelor's Degree in Information Technology** | University of Applied Science and Technology *(Feb 2024)*
-
----
-
-## 💬 Languages
-
-- 🇬🇧 **English** – Duolingo English Test: 120 (Proficient)
-
-- 🇩🇪 **German** – A2 (Basic)
-
-- 🇮🇷 **Persian** – Native
-
----
-
-## 🎯 Looking For
-
-I'm actively seeking opportunities to:
-
-- 🚀 Build and scale **Agentic AI systems** and **LLM applications** at innovative companies
-
-- 💼 Work on **production-grade AI systems** that solve real business problems
-
-- 🌍 Collaborate with international teams on cutting-edge AI/ML projects
-
-- 📈 Contribute to **enterprise RAG systems** and **knowledge management** platforms
-
-- 🤝 Join forward-thinking organizations that value innovation and technical excellence
-
-**Open to:** Remote positions, Contract work, Full-time opportunities worldwide
-
----
-
-## 📬 Let's Connect!
-
-I'm always open to discussing AI/ML projects, collaborating on interesting initiatives, or exploring new opportunities. Let's connect!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei)
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MahdiNavaei)
-
-[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/mahdinavaei)
-
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mahdinavaei1367@gmail.com)
-
-</div>
+- 🚀 Building **Agentic AI systems** and **LLM applications** at innovative companies
+- 💼 **Production-grade AI systems** that solve real business problems
+- 🌍 Collaborating with **international teams** on cutting-edge AI/ML projects
+- 🤝 **Remote positions**, contract work, or full-time opportunities worldwide
 
 ---
 
 <div align="center">
+
+### Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MahdiNavaei)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/mahdinavaei)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahdinavaei1367@gmail.com)
+
+---
 
 **⭐ If you find my work interesting, please consider giving my repositories a star!**
 
-*Building the future of AI, one system at a time.* 🚀
-
-Made with ❤️ by Mahdi Navaei
+*Building the future of AI, one system at a time.*
 
 </div>
