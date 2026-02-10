@@ -30,7 +30,7 @@ I architect and deploy **production-grade intelligent systems** that drive real 
 
 ---
 
-## 🚀 Flagship Project
+## 🚀 Flagship Project 1
 
 <div align="center">
 
@@ -83,7 +83,7 @@ The **Job Apply** automation (LinkedIn, Indeed) is the first production plugin �
 
 ---
 
-## 🚀 Flagship Project #2
+## 🚀 Flagship Project 2
 
 <div align="center">
 
@@ -287,7 +287,8 @@ Four-agent system for supply chain optimization using LangGraph orchestration.
 
 | Role | Company | Period |
 |------|---------|--------|
-| **Data Scientist** | Daria Hamrah Paytakht | Jul 2024 – Present |
+| **Senior AI/ML Engineer** | Daria Hamrah Paytakht | Jul 2024 – Present |
+| **Senior AI/ML Engineer** | Educational Industries Research & Innovation Co | Nov 2023 – Jul 2024 |
 | **Data Science Team Lead** | Diar-e Kohan CO. | Sep 2020 – May 2022 |
 | **Data Scientist** | Diar-e Kohan CO. | Sep 2018 – Sep 2020 |
 
