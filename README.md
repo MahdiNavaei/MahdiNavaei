@@ -36,48 +36,105 @@ I architect and deploy **production-grade intelligent systems** that drive real 
 
 ### [ARIA — Adaptive Reasoning & Intelligent Automation](https://github.com/MahdiNavaei/aria)
 
-**Production-Grade Agentic AI System**
+**🤖 Production-Grade Agentic AI Framework**
+
+*Vision + LLM + Event Sourcing • Local LLMs • LangGraph • HITL Safety • Autonomous Task Execution*
 
 [![Tests](https://img.shields.io/badge/tests-81%20passed-brightgreen?style=flat-square)](https://github.com/MahdiNavaei/aria)
 [![Python](https://img.shields.io/badge/python-3.11+-blue?style=flat-square&logo=python)](https://github.com/MahdiNavaei/aria)
 [![LangGraph](https://img.shields.io/badge/LangGraph-powered-orange?style=flat-square)](https://github.com/MahdiNavaei/aria)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/MahdiNavaei/aria/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square)](https://github.com/MahdiNavaei/aria/blob/main/LICENSE)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&logo=docker)](https://github.com/MahdiNavaei/aria)
 
 </div>
 
-ARIA is not a prompt-chain demo or a single-purpose script — it's a **complete agentic AI platform** designed for real-world automation:
+**ARIA** is not a prompt-chain demo or a single-purpose script — it's a **full agentic AI system** built for real-world automation: observe UIs with vision, plan with LLMs, act safely with human oversight, and learn from outcomes. Designed to run on **local LLMs** and **consumer GPUs (8GB VRAM)**, with native **English & Persian** support for privacy-sensitive and resource-constrained environments.
+
+**Cognitive architecture** — perception, reasoning, execution, and memory are separated and observable:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                              ARIA                                        │
-│  Adaptive Reasoning & Intelligent Automation                            │
+│                         ARIA — Cognitive Core                            │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  👁️ Eye (Vision)    →  Observe real interfaces using VLM               │
-│  🧠 Brain (LLM)     →  Plan and execute actions with reasoning          │
-│  ✋ Hand (Executor) →  Safe execution with capability contracts          │
-│  💾 Memory          →  Episodic, semantic, and working memory           │
-│  📚 Learning        →  Continuous improvement from outcomes             │
-│  🛡️ Safety          →  HITL gates, risk detection, domain policies      │
+│  👁️ Eye (VLM/OCR)   →  Observe real interfaces • Screenshot • UIRef    │
+│  🧠 Brain (LLM)      →  Plan, execute, observe • LangGraph • HITL gates  │
+│  ✋ Hand (Actions)   →  Browser • Desktop • Playwright • PyAutoGUI       │
+│  💾 Memory           →  Working + Episodic + Semantic (Redis • Qdrant)   │
+│  📡 Event Bus        →  Kafka/Redpanda • Full audit trail & replay       │
+│  📚 Learning         →  Extract skills & policies from successful runs   │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Key Differentiators:**
+**Why ARIA stands out:**
 
-| Feature | Description |
-|---------|-------------|
-| **Vision-First** | UI understanding via VLM with multi-locator fallback |
-| **Event-Sourced** | Complete audit trail with full execution replay |
-| **Human-in-the-Loop** | First-class HITL for sensitive actions |
-| **Local LLMs** | Runs on consumer-grade GPUs (8GB VRAM) |
-| **Bilingual** | Full English and Persian support |
+| Pillar | What it means for you |
+|--------|------------------------|
+| **Vision-First** | VLM-powered UI understanding with multi-locator fallback — no brittle selectors only |
+| **Event-Sourced** | Every step persisted; full audit trail and replay for debugging and compliance |
+| **Human-in-the-Loop** | Safety gates for sensitive actions (login, CAPTCHA, payment) — production-safe by design |
+| **Local & Bilingual** | Run entirely on your hardware; native Farsi STT (Whisper) and embeddings |
+| **Production-Ready** | FastAPI + WebSocket API, Streamlit dashboard, Docker Compose, 81 tests |
 
-**Architecture:**
-- **LangGraph** for stateful orchestration
-- **Event Sourcing** for auditability and replay
-- **Plugin System** with Job Apply as first production plugin
-- **10 ADRs** documenting architectural decisions
+**Tech stack:** LangGraph • Ollama / OpenAI • Qwen-VL • Playwright • Redpanda (Kafka) • Redis • Qdrant • Mem0
 
-🔗 **[Explore ARIA →](https://github.com/MahdiNavaei/aria)**
+The **Job Apply** automation (LinkedIn, Indeed) is the first production plugin — the platform is built for more.
+
+🔗 **[Explore ARIA →](https://github.com/MahdiNavaei/aria)** • 📖 *Docs, ADRs, and MODELS.md inside the repo*
+
+---
+
+## 🚀 Flagship Project #2
+
+<div align="center">
+
+### [InvoiceMind — Local-LLM, Evidence-First, Audit-Ready Invoice Processing](https://github.com/MahdiNavaei/InvoiceMind)
+
+**📄 Governance-Safe Financial Document AI**
+
+*Bilingual (EN/FA) • Quality Gates • Human-in-the-Loop Review • Replayable Lifecycle • Audit Endpoints*
+
+[![Release](https://img.shields.io/badge/release-v0.3.0-blue?style=flat-square)](https://github.com/MahdiNavaei/InvoiceMind/releases)
+[![Python](https://img.shields.io/badge/python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/MahdiNavaei/InvoiceMind)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://github.com/MahdiNavaei/InvoiceMind)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-green?style=flat-square)](https://github.com/MahdiNavaei/InvoiceMind/blob/main/LICENSE)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/MahdiNavaei/InvoiceMind)
+
+<img src="https://raw.githubusercontent.com/MahdiNavaei/InvoiceMind/main/assets/readme/hero-cover-v1.jpg" alt="InvoiceMind — Evidence-first invoice processing" width="800"/>
+
+</div>
+
+**InvoiceMind** is not an OCR benchmark or a generic prompt demo — it's a **production-oriented platform** for invoice extraction, human review, and governance-safe automation. Built for teams where *traceability and control* matter more than blind automation. Most invoice AI fails in production because decisions are hard to trust, explain, and control; InvoiceMind tackles that gap head-on.
+
+**End-to-end flow** — from ingestion to final export, with explicit gates and audit at every step:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    InvoiceMind — Pipeline & Lifecycle                    │
+├─────────────────────────────────────────────────────────────────────────┤
+│  📥 Ingestion → Validation → OCR/Layout → LLM Extraction → Postprocess  │
+│  📊 Routing (quality gates) → Review / Quarantine → Export + Audit        │
+├─────────────────────────────────────────────────────────────────────────┤
+│  Run lifecycle: RECEIVED → VALIDATED → EXTRACTED → GATED →               │
+│                 AUTO_APPROVED | NEEDS_REVIEW → FINALIZED                 │
+│  Control: cancel • replay • quarantine (reason-coded) • audit/verify      │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+**Why InvoiceMind stands out:**
+
+| Pillar | What it means for you |
+|--------|------------------------|
+| **Evidence-first** | Policy and gate-based routing instead of confidence-only automation |
+| **Decision traceability** | Every auto-approve or escalate tied to gate results and reason codes |
+| **Replayable & auditable** | Full run lifecycle, cancel/replay, and audit endpoints for compliance and post-incident analysis |
+| **Local-first** | Privacy-first inference; versioned config bundles and model registry (`models.yaml`) |
+| **Safe defaults** | Quarantine and human review over aggressive auto-posting; NIST AI RMF & OWASP LLM–aligned |
+
+**Tech stack:** Python 3.11+ • FastAPI • Next.js 16 • React 19 • TypeScript • SQLAlchemy • Alembic • SQLite • AGPL-3.0
+
+ADR-001 (local-first), ADR-002 (evidence-first), ADR-003 (policy-driven gates) — design documented in the repo.
+
+🔗 **[Explore InvoiceMind →](https://github.com/MahdiNavaei/InvoiceMind)** • 📖 *Docs, run.bat one-click startup, API surface in README*
 
 ---
 
