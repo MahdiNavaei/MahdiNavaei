@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:mahdinavaei1367@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Master-20BEFF?style=flat-square&logo=kaggle)](https://kaggle.com/mahdinavaei)
 
-**7+ years building production-grade AI systems** | Tehran, Iran
+**8+ years building production-grade AI systems** | Tehran, Iran
 
 *Specializing in Agentic AI, LLMs, RAG Systems, and Enterprise ML Pipelines*
 
