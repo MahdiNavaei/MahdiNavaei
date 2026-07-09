@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:mahdinavaei1367@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Master-20BEFF?style=flat-square&logo=kaggle)](https://kaggle.com/mahdinavaei)
 
-**7+ years building production-grade AI systems** | Tehran, Iran
+**8+ years building production-grade AI systems** | Tehran, Iran
 
 *Specializing in Agentic AI, LLMs, RAG systems, evidence-first automation, and production ML pipelines*
 
@@ -345,7 +345,8 @@ Four-agent system for supply chain optimization using LangGraph orchestration.
 
 | Role | Company | Period |
 |------|---------|--------|
-| **Data Scientist** | Daria Hamrah Paytakht | Jul 2024 – Present |
+| **Senior AI/ML Engineer** | Daria Hamrah Paytakht | Jul 2024 – Present |
+| **Senior AI/ML Engineer** | Educational Industries Research & Innovation Co | Nov 2023 – Jul 2024 |
 | **Data Science Team Lead** | Diar-e Kohan CO. | Sep 2020 – May 2022 |
 | **Data Scientist** | Diar-e Kohan CO. | Sep 2018 – Sep 2020 |
 
