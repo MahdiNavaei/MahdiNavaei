@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.jpg" alt="Mahdi Navaei — Senior AI/ML Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/MahdiNavaei/MahdiNavaei/main/assets/profile-banner.jpg" alt="Mahdi Navaei — Senior AI/ML Engineer" width="100%" />
 </p>
 
 <p align="center">
