@@ -1,51 +1,50 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-banner.jpg" alt="Mahdi Navaei — Senior AI/ML Engineer" width="100%" />
+</p>
 
-# Mahdi Navaei
+<p align="center">
+  <a href="https://linkedin.com/in/mahdinavaei/"><img src="https://img.shields.io/badge/LinkedIn-Mahdi%20Navaei-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://orcid.org/0009-0004-1087-0234"><img src="https://img.shields.io/badge/ORCID-0009--0004--1087--0234-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" /></a>
+  <a href="mailto:MahdiNavaei1367@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-### Senior AI/ML Engineer · LLM & Agentic Systems · AI/ML Platform Engineering
+I build **production AI systems that are observable, testable, evidence-driven, and safe to automate**.
 
-**I build production AI systems that are observable, testable, evidence-driven, and safe to automate.**
+Senior AI/ML Engineer with 7+ years across applied machine learning, LLM/RAG systems, agentic architectures, AI/ML platforms, and production automation. My strongest work sits at the boundary between **AI research, software engineering, and operational reliability**.
 
-7+ years across applied machine learning, production AI, LLM/RAG systems, agentic architectures, and ML platform engineering.
+Currently a **Senior Machine Learning Engineer at Picnic** on a part-time, remote basis.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahdi%20Navaei-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1087--0234-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1087-0234)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:MahdiNavaei1367@gmail.com)
-
-</div>
-
----
-
-## What I build
-
-I work at the boundary between **AI research, software engineering, and production systems**.
-
-My recent work is centered on:
-
-- **Agentic AI systems** with explicit planning, tool boundaries, memory, replay, safety gates, and human oversight.
-- **LLM/RAG systems** with measurable retrieval quality, deterministic evaluation, grounding, and failure analysis.
-- **Local-first AI** for privacy-sensitive or infrastructure-constrained environments, including consumer-GPU deployment.
-- **Production ML platforms** with APIs, CI/CD, observability, reproducible evaluation, data-quality controls, and safe rollout paths.
-- **Evidence-driven automation** where decisions, failures, and approvals remain inspectable instead of disappearing behind a model response.
-
-Currently working as a **Senior Machine Learning Engineer at Picnic** on a part-time, remote basis.
-
-> My sweet spot is taking an AI capability from a promising prototype to a system that can actually be reviewed, tested, shipped, operated, and trusted.
+> My sweet spot: turning a promising AI capability into a system that can be reviewed, tested, shipped, operated, debugged, and trusted.
 
 ---
 
 ## If you only have 90 seconds
 
-| What you want to evaluate | Start here | What it demonstrates |
+| Evaluate | Start here | Signal |
 |---|---|---|
-| **Agent reliability & debugging** | [ReproAgent](https://github.com/MahdiNavaei/ReproAgent) | Portable failure capture, safe mock replay, deterministic diffing, regression testing, provider integration boundaries |
-| **Agentic platform architecture** | [ARIA](https://github.com/MahdiNavaei/aria) | Brain/Eye/Hand/Memory/Safety separation, HITL, replay-aware contracts, orchestration, local-first design |
-| **Production product engineering** | [Career Radar](https://github.com/MahdiNavaei/Europe-Visa-Sponsorship-Jobs) | Real data ingestion, deterministic ranking, bilingual product UI, CI, Windows packaging, release governance |
-| **Scientific ML rigor** | [HAI First-Day Risk Prediction](https://github.com/MahdiNavaei/HAI-FirstDay-Risk-Prediction) | Leakage-controlled rare-event modeling, frozen held-out evaluation, calibration, alert-budget analysis |
+| **Production engineering** | [Career Radar](https://github.com/MahdiNavaei/Europe-Visa-Sponsorship-Jobs) | Real ingestion, deterministic decisioning, durable state, CI/CD, Windows releases, post-release hardening |
+| **Agent reliability** | [ReproAgent](https://github.com/MahdiNavaei/ReproAgent) | Failure capture, fail-closed replay, deterministic diffing, regression tests, provider boundaries |
+| **Agentic architecture** | [ARIA](https://github.com/MahdiNavaei/aria) | Brain/Eye/Hand/Memory/Safety separation, orchestration, HITL, replay-aware contracts, local-first design |
+| **LLM governance & HITL** | [InvoiceMind](https://github.com/MahdiNavaei/InvoiceMind) | Evidence-first document AI, quality gates, quarantine, replay, auditability, policy-driven automation |
+| **Scientific ML rigor** | [HAI First-Day Risk Prediction](https://github.com/MahdiNavaei/HAI-FirstDay-Risk-Prediction) | Rare-event modeling, frozen held-out evaluation, calibration, uncertainty, alert-budget analysis |
 
 ---
 
-## Selected systems
+## Flagship systems
+
+### [Career Radar — Evidence-Based European Job Intelligence](https://github.com/MahdiNavaei/Europe-Visa-Sponsorship-Jobs)
+
+A production-oriented desktop/web product for non-EU candidates who need **visa-sponsorship and relocation evidence**, not another generic job board.
+
+- Scheduled ingestion from public employer ATS sources with source-health and retry semantics.
+- Deterministic sponsorship / eligibility logic with hard-negative handling and evidence provenance.
+- Versioned, hash-verified market catalogs with transactional updates and local candidate state.
+- FastAPI + Next.js, PostgreSQL/SQLite, browser tests, dependency audits, coverage gates, Windows packaging, and release checks.
+- English/Persian UX with real RTL support.
+
+**Signal:** production ownership · data pipelines · product ML · deterministic decisioning · CI/CD · release engineering
+
+---
 
 ### [ReproAgent — Flight Recorder for AI Agents](https://github.com/MahdiNavaei/ReproAgent)
 
@@ -55,38 +54,25 @@ An open-source reliability toolkit for preserving agent failures as portable, ve
 
 - Framework-neutral execution capture with redaction and atomic local persistence.
 - Fail-closed replay that never silently falls back to live model or tool execution.
-- Deterministic exact / structural / normalized diffs and pytest regression integration.
-- Explicit OpenAI Python SDK instrumentation without global monkeypatching or hidden credential discovery.
-- CI across modern Python versions, strict typing, packaging, and offline compatibility testing.
+- Exact, structural, and normalized deterministic diffs with pytest regression integration.
+- Explicit provider instrumentation boundaries, including OpenAI Python SDK integration.
+- Contract, unit, integration, security, replay, diff, and regression coverage.
 
-**Focus:** Agent reliability · reproducibility · regression testing · safety boundaries · developer tooling
+**Signal:** agent reliability · reproducibility · developer tooling · safety boundaries · regression engineering
 
 ---
 
 ### [ARIA — Adaptive Reasoning & Intelligent Automation](https://github.com/MahdiNavaei/aria)
 
-A contract-first agentic AI engineering platform for **observable, replay-aware, human-supervised automation**.
+A contract-first platform for **observable, replay-aware, human-supervised agentic automation**.
 
-- Separates **Brain, Eye, Hand, Memory, Safety, and Event/Replay** into explicit system boundaries.
+- Separates **Brain, Eye, Hand, Memory, Safety, Replay, Learning, Voice, and LLM** concerns into explicit system boundaries.
 - Uses structured orchestration instead of hiding control flow inside prompt chains.
-- Supports local models, vision-assisted UI understanding, tool execution, HITL routing, and durable traces.
-- Public v0.2 documents the architecture through Phase 12 and includes a curated replay-contract implementation with unit and integration coverage.
+- Supports local models, vision-assisted UI understanding, tool execution, HITL routing, memory, and durable traces.
+- Includes unit, integration, and E2E test structure plus build/test/docs workflows.
+- Public repository is a curated implementation snapshot rather than a claim that every internal capability is public.
 
 **Stack:** Python · LangGraph · FastAPI · Redis · Qdrant · Playwright · VLM/OCR · Docker
-
----
-
-### [Career Radar — Evidence-Based European Job Intelligence](https://github.com/MahdiNavaei/Europe-Visa-Sponsorship-Jobs)
-
-A production-oriented desktop/web product for non-EU candidates who need **visa-sponsorship or relocation evidence**, not another generic job board.
-
-- Deterministic sponsorship and eligibility rules with hard-negative handling and evidence provenance.
-- Scheduled ingestion from a large registry of public employer ATS sources.
-- Versioned, hash-verified market catalogs with transactional client updates and local candidate state.
-- English/Persian UX with true RTL support.
-- FastAPI + Next.js product stack, PostgreSQL/SQLite support, browser tests, dependency audits, coverage gates, Windows packaging, and release checks.
-
-**Focus:** Data pipelines · product ML · deterministic ranking · CI/CD · release engineering · full-stack delivery
 
 ---
 
@@ -94,38 +80,56 @@ A production-oriented desktop/web product for non-EU candidates who need **visa-
 
 A local-first invoice-processing platform designed around **quality gates, human review, auditability, and replayable decisions** rather than blind OCR automation.
 
-- Structured ingestion, validation, OCR/layout handling, LLM extraction, post-processing, routing, review, and export.
+- End-to-end ingestion, validation, OCR/layout, LLM extraction, post-processing, routing, review, and export.
 - Policy-driven gates with reason-coded escalation and quarantine states.
-- Run lifecycle, replay/cancel controls, audit endpoints, versioned configuration, and model registry.
-- Bilingual product surface with a FastAPI backend and Next.js/TypeScript frontend.
+- Replay/cancel lifecycle, audit endpoints, versioned runtime configuration, and model registry.
+- Bilingual FastAPI + Next.js/TypeScript product surface.
+- CI covers backend unit/integration tests, frontend type checks/tests, dependency audits, and performance smoke scenarios.
 
-**Focus:** Document AI · local LLMs · governance · HITL · traceability · production workflows
-
----
-
-### [Tool-Memory-Evidence Retrieval Benchmark](https://github.com/MahdiNavaei/agentic-retrieval-evals-qdrant)
-
-A local-first benchmark for measuring retrieval quality inside **agentic workflows**, where the system may need the right tool, memory, and evidence — not only the right document.
-
-- Evaluates dense, sparse, reranked, and hybrid retrieval with Qdrant + FastEmbed.
-- Reports Tool@K, Memory@K, Evidence@K, mean latency, and P95 latency.
-- Requires no external LLM API at runtime.
-- Keeps weak results visible instead of tuning labels until the benchmark looks good.
-
-**Focus:** RAG evaluation · agent memory · retrieval systems · Qdrant · reproducibility
+**Signal:** local LLMs · document AI · governance · HITL · traceability · production workflows
 
 ---
 
-### [Early Prediction of Hospital-Acquired Infection](https://github.com/MahdiNavaei/HAI-FirstDay-Risk-Prediction)
+### [TrustTrace — Self-Auditing Web Extraction Agent](https://github.com/MahdiNavaei/AI-Scraper-TrustTrace)
+
+A technical preview of evidence-driven web extraction that **checks its own output instead of treating every scrape as success**.
+
+`Prompt → Validated Task → Bounded Extraction → Evidence Critic → Safe Repair Proposal`
+
+- Detects suspicious outputs such as zero records, field mismatch, invalid URLs, parent-container contamination, and blocked targets.
+- Distinguishes success, repair-needed, and blocked states instead of collapsing them into empty results.
+- Produces non-executing, human-reviewable repair proposals.
+- Includes sanitized success/corruption/blocked demos and focused evaluator, executor, and repair tests.
+- Intentionally refuses unsafe access-control bypass and blind retry behavior.
+
+**Signal:** evidence-driven automation · agent evaluation · failure semantics · safe repair planning · human oversight
+
+---
+
+### [HAI First-Day Risk Prediction](https://github.com/MahdiNavaei/HAI-FirstDay-Risk-Prediction)
 
 A reproducible rare-event ML study using first-day EHR data across **119,743 encounters**.
 
-- Leakage-controlled feature construction and a pre-specified frozen held-out evaluation boundary.
+- Leakage-controlled feature construction with a pre-specified frozen held-out evaluation boundary.
 - XGBoost primary model under extreme class imbalance.
 - Average Precision, AUROC, Brier score, calibration, uncertainty, subgroup analysis, and fixed alert-budget evaluation.
-- Public release contains code, frozen configuration, tests, provenance notes, and aggregate reproducibility artifacts without exposing source patient data.
+- Public release includes code, frozen configuration, tests, provenance notes, and aggregate reproducibility artifacts without exposing source patient data.
+- Weaknesses and limitations remain visible instead of being tuned away after test evaluation.
 
-**Focus:** Applied ML research · imbalanced learning · evaluation design · clinical AI · reproducibility
+**Signal:** applied ML research · imbalanced learning · evaluation design · clinical AI · reproducibility
+
+---
+
+## Focused engineering & evaluation work
+
+- [Tool-Memory-Evidence Retrieval Benchmark](https://github.com/MahdiNavaei/agentic-retrieval-evals-qdrant) — dense/sparse/reranked/hybrid retrieval evaluation for agent tools, memory, and evidence with Qdrant + FastEmbed.
+- [Google Scholar Scraper V2](https://github.com/MahdiNavaei/Google-Scholar-Scraper) — local Windows research utility with deterministic tests, explicit failure states, installer/portable builds, checksums, and release hardening.
+- [DriveShield](https://github.com/MahdiNavaei/DriveShield) — local/offline collision-risk intelligence with BADAS-Open integration, FastAPI, React/TypeScript, and evaluation pipelines.
+- [FlowCast](https://github.com/MahdiNavaei/FlowCast) — surge-pricing and ETA optimization with demand forecasting, geospatial routing, APIs, and a realtime dashboard.
+- [Pharmaceutical Supply Chain Agentic AI](https://github.com/MahdiNavaei/pharmaceutical-supply-chain-agentic-ai) — multi-agent forecasting, routing, inventory, and monitoring workflows.
+- [Hybrid Retail Recommender](https://github.com/MahdiNavaei/hybrid-retail-recommender) — collaborative + content-based recommendation with sparse matrices, cold-start handling, offline ranking metrics, API, UI, and Docker.
+
+Older learning-oriented repositories remain public, but are intentionally not part of the primary showcase.
 
 ---
 
@@ -161,18 +165,6 @@ Next.js · React · TypeScript · REST/WebSocket APIs · bilingual English/Persi
 
 ---
 
-## More systems
-
-- [TrustTrace](https://github.com/MahdiNavaei/AI-Scraper-TrustTrace) — self-auditing, evidence-first web extraction with safe repair planning.
-- [DriveShield](https://github.com/MahdiNavaei/DriveShield) — local computer-vision platform for real-time collision-risk intelligence.
-- [FlowCast](https://github.com/MahdiNavaei/FlowCast) — surge-pricing and ETA optimization platform.
-- [Pharmaceutical Supply Chain Agentic AI](https://github.com/MahdiNavaei/pharmaceutical-supply-chain-agentic-ai) — multi-agent supply-chain decision system.
-- [Google Scholar Scraper](https://github.com/MahdiNavaei/Google-Scholar-Scraper) — packaged research-data collection utility with release hardening and integrity checks.
-
-Older learning and classical ML repositories are intentionally left out of the main showcase so the profile stays focused on current senior-level work.
-
----
-
 ## Research & publications
 
 My work also includes applied machine learning research in healthcare and forecasting.
@@ -185,23 +177,21 @@ My work also includes applied machine learning research in healthcare and foreca
 
 ---
 
-## What I am interested in
+## What I am looking for
 
-I am most interested in roles where **models are only one part of the system** and engineering quality matters just as much as model quality.
-
-Relevant role families include:
+I am most interested in roles where **models are only one part of the system** and engineering quality matters just as much as model quality:
 
 **Senior AI/ML Engineer · Generative AI / LLM Engineer · Agentic AI Engineer · AI/ML Platform Engineer · MLOps / LLMOps · Applied AI Engineer · Applied Scientist · Senior Data Scientist**
 
-I am open to international teams, remote collaboration, and **relocation opportunities in Europe with visa sponsorship**.
+Open to international teams, remote collaboration, and **relocation opportunities in Europe with visa sponsorship**.
 
 ---
 
-<div align="center">
+<p align="center">
+  <strong>Let's build AI systems that survive contact with production.</strong>
+</p>
 
-### Let's build AI systems that survive contact with production.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahdinavaei/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:MahdiNavaei1367@gmail.com)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/mahdinavaei/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:MahdiNavaei1367@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
